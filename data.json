@@ -1,0 +1,44 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day","VESIT"],
+   "responses": ["Hello, welcome to VESIT", "Welcome to Vesit!!", "Hi there, how can I help?"]
+  },
+  {"tag": "Introduction",
+   "patterns": ["what is your name", "what can u tell me about you", "name","Are you a human","Bot"],
+   "responses": ["My name is A.T.H.E.N.A ","I am a bot named ATHENA and I am here for your assistance"]
+  },
+  {"tag": "Fullform",
+      "patterns": ["What is the fullform of ATHENA", "What does ATHENA means?", "Fullform"],
+      "responses": ["The fullform of ATHENA is Artificial Talented Helpfull Execellent Neuron AI", "Artificial Talented Helpfull Execellent Neuron AI"]
+     },
+  {"tag": "goodbye",
+   "patterns": ["Bye", "See you later", "Goodbye"],
+   "responses": ["See you later", "Have a nice day"]
+  },
+  {"tag": "thanks",
+   "patterns": ["Thanks", "Thank you", "That's helpful"],
+   "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+  {"tag": "hours",
+   "patterns": ["What hours is the college open?", "What hours is the college open?", "What hours is the office open?" ,"What hours is the college open?","Timming"],
+   "responses": ["We're open on weekdays from  10am-6pm", "The office is open from 10am-6pm every day"]
+  },
+  {"tag": "Address",
+      "patterns": ["Where is college located?", "Address","Can u tell me the address of college?"],
+      "responses": ["Hashu Adwani Memorial Complex, Collector's Colony, Chembur, Mumbai, Maharashtra 400074"]
+  },
+  {"tag": "Courses",
+   "patterns": ["What courses are available at Vesit?", "Courses?", "Tell me about the courses provided by VESIT?" ],
+   "responses": ["Enginerring(CS,IT,EXTC,Instrumentation) and MCA(Masters in Computer appllication)", "Courses that are available are B.E and M.C.A"]
+  },
+  {"tag": "Hostel",
+      "patterns": ["Does the College provide hostel?", "Does the college have hostel?", "Can u tell me about the college hostel facility?" ,"Hostel"],
+      "responses": ["yes college has limted hostel seats", "College does provide hostels","Yes,Please contact the office for futher detail"]
+  },
+  {"tag": "Office ",
+      "patterns": ["How do I contact the office?", "Can I have the office number","Office"],
+      "responses": ["Please contact the office for futher detail", "Office contact number 123456789"]
+  }
+]
+}
+
